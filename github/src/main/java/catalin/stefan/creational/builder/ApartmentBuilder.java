@@ -33,13 +33,27 @@ public class ApartmentBuilder {
   }
 
   public Aparment build() {
-    Aparment ap = new Aparment(sqm, rooms, city, area, kitchen);
-    sqm = -1;
-    rooms = -1;
-    city = "";
-    area = "";
-    kitchen = false;
+    Aparment ap = new Aparment(this.sqm, this.rooms, this.city, this.area, this.kitchen);
+
+    // Below are the Builder properties (not the Apartment ones). Reset the default values here...
+    this.sqm = -1;
+    this.rooms = -1;
+    this.city = "";
+    this.area = "";
+    this.kitchen = false;
     return ap;
   }
+
+//  WITHOUT USING this.
+//  public Aparment build() {
+//    Aparment ap = new Aparment(sqm, rooms, city, area, kitchen);
+//    sqm = -1;
+//    rooms = -1;
+//    city = "";
+//    area = "";
+//    kitchen = false;
+//    return ap;
+//  }
+
 
 }

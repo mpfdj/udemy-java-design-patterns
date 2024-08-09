@@ -14,7 +14,10 @@ public class Client {
       .build();
     ap1.display();
 
-    Aparment ap2 = builder.setRooms(3).setCity("Paris").build();
+    Aparment ap2 = builder
+            .setRooms(3)
+            .setCity("Paris")
+            .build();
     ap2.display();
   }
 }

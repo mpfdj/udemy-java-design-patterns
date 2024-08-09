@@ -27,7 +27,7 @@ public class Aparment {
     if(sqm != -1) {
       System.out.println(sqm + " sqm");
     }
-    if(rooms != 1) {
+    if(rooms != -1) {
       System.out.println(rooms + " rooms");
     }
     if (city != "") {
