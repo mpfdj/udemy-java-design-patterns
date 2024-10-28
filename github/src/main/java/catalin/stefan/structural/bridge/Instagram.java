@@ -2,7 +2,8 @@ package catalin.stefan.structural.bridge;
 
 public class Instagram implements App {
 
-  PhoneOS os;
+  PhoneOS os;  // This is the Bridge to the OS
+
 
   public Instagram(PhoneOS os) {
     this.os = os;

@@ -1,5 +1,14 @@
 package catalin.stefan.creational.factorymethod;
 
+
+
+// Hides design and creation logic from the client
+// Many subclass types, only one instance required
+// Creation is removed from the client
+// Useful for frequent code changes
+
+
+
 public class ShapeFactory {
 
   public Shape getFood(String type) {

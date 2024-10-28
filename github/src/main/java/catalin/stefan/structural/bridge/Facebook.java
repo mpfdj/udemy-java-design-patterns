@@ -2,7 +2,8 @@ package catalin.stefan.structural.bridge;
 
 public class Facebook implements App {
 
-  private PhoneOS os;
+  private PhoneOS os;  // This is the Bridge to the OS
+
 
   public Facebook(PhoneOS os) {
     this.os = os;

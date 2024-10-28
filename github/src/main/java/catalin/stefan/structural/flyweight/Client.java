@@ -3,8 +3,11 @@ package catalin.stefan.structural.flyweight;
 import java.util.Random;
 
 public class Client {
+
+  // ArrayList only has 3 Objects in memory exist instead of 1 million
+
   public static void main(String[] args) {
-    int toDraw = 1000000;
+    int toDraw = 1_000_000;
     Army army = new Army();
     FighterRank currentRank;
     Random random = new Random();

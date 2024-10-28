@@ -1,5 +1,9 @@
 package catalin.stefan.structural.composite;
 
+
+// Implements a Tree structure
+
+
 public class Client {
   public static void main(String[] args) {
     Composite computer = new Composite("PC");

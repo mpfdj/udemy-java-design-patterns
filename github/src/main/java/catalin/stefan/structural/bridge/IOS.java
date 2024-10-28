@@ -9,7 +9,7 @@ public class IOS implements PhoneOS {
 
   @Override
   public void download(String url) {
-    System.out.println("Iphone downloading from: " + url);
+    System.out.println("Iphone downloading url: " + url);
   }
 
   @Override

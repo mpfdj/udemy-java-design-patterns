@@ -1,5 +1,10 @@
 package catalin.stefan.creational.abstractfactory;
 
+
+// One extra layer of abstraction on top of the Factory pattern
+// A factory of factories
+
+
 public class Client {
   private Service service;
   private Response response;
